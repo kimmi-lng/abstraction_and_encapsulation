@@ -1,1 +1,1 @@
-from fan_class import Fan
+from test_fan import 
