@@ -23,3 +23,11 @@ class Fan:
         return self._color
     
     #setter method
+    def set_speed(self, speed):
+        self._speed = int(speed)
+    def set_on(self, on):
+        self._on = bool(on)
+    def set_radius(self, radius):
+        self._radius = float(radius)
+    def set_color(self, color):
+        self._color = str(color)
