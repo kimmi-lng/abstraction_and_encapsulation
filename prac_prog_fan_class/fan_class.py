@@ -11,6 +11,7 @@ class Fan:
         self.__on = bool(on)
         self.__radius = float(radius)
         self.__color = str(color)
+        
     #getter method
     def get_speed(self):
         return self.__speed
