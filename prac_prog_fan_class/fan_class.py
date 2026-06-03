@@ -7,27 +7,26 @@ class Fan:
 
     #instance variables
     def __init__(self, speed=SLOW, on=False, radius=5, color='blue'):
-        self._speed = int(speed)
-        self._on = bool(on)
-        self._radius = float(radius)
-        self._color = str(color)
-
+        self.__speed = int(speed)
+        self.__on = bool(on)
+        self.__radius = float(radius)
+        self.__color = str(color)
     #getter method
     def get_speed(self):
-        return self._speed
+        return self.__speed
     def get_on(self):
-        return self._on
+        return self.__on
     def get_radius(self):
-        return self._radius
+        return self.__radius
     def get_color(self):
-        return self._color
-    
+        return self.__color
+
     #setter method
     def set_speed(self, speed):
-        self._speed = int(speed)
+        self.__speed = int(speed)
     def set_on(self, on):
-        self._on = bool(on)
+        self.__on = bool(on)
     def set_radius(self, radius):
-        self._radius = float(radius)
+        self.__radius = float(radius)
     def set_color(self, color):
-        self._color = str(color)
+        self.__color = str(color)
