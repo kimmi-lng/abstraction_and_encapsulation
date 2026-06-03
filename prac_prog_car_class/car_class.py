@@ -1,5 +1,9 @@
 class Car():
     def __init__(self, year_model, make, speed=0):
-        self._year_model = year_model
-        self._make = make
-        self._speed = speed
+        self.__year_model = year_model
+        self.__make = make
+        self.__speed = speed
+
+    def accelerate(self):
+    def brake(self):
+    def get_speed(self):
