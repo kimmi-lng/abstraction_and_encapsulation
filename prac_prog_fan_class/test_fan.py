@@ -1,8 +1,8 @@
 from fan_class import Fan
 
-class TestFan():
+class TestFan:
 
-    def run():
+    def run(self):
         #For the first object, assign the maximum speed, radius 10, color yellow, and turn it on.
         fan1 = Fan(Fan.FAST, True, 10, 'yellow')
 
