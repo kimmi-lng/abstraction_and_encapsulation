@@ -9,4 +9,9 @@ class TestCar:
         print("ACCELERATING--")
         for i in range(1, 6):
             car.accelerate()
-            print(f"Car current speed after {i}: {car.get_speed()} Kph")
+            print(f"Car current speed after accelerating {i}: {car.get_speed()} Kph")
+
+        print("BRAKING--")
+        for i in range(1, 6):
+            car.brake()
+            print(f"Car current speed after braking {i}: {car.get_speed()} Kph")
